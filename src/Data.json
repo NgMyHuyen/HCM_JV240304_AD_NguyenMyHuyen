@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "img": "https://cdn.tgdd.vn/Products/Images/42/220833/samsung-galaxy-s21-tim-600x600.jpg",
+
+    "name": "Samsung Galaxy S21",
+    "price": "20.000.000"
+  },
+
+  {
+    "id": 2,
+    "img": "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-tim-thumb-600x600.jpg",
+
+    "name": "Iphone14 Promax",
+    "price": "20.500.000 "
+  },
+
+  {
+    "id": 3,
+    "img": "https://cdn.tgdd.vn/Products/Images/42/217935/samsung-galaxy-s20-hong-600x600-600x600.jpg",
+
+    "name": "Samsung Galaxy S20",
+    "price": "21.000.000"
+  },
+
+  {
+    "id": 4,
+    "img": "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/w300/iphone-11-pro-max-vang.jpg.webp",
+
+    "name": "Iphone11 Promax",
+    "price": "21.500.000"
+  },
+
+  {
+    "id": 5,
+    "img": "https://cdn.tgdd.vn/Products/Images/42/231110/samsung-galaxy-s22-090222-102419-600x600.jpg",
+
+    "name": "Samsung Galaxy S22",
+    "price": "22.000.000"
+  },
+
+  {
+    "id": 6,
+    "img": "https://www.hnammobile.com/uploads/products/details/9952397594-samsung-galaxy-s23-ultra-5g-s918-256gb-ram-8gb.jpg",
+
+    "name": "Samsung Galaxy S23",
+    "price": "22.500.000"
+  },
+
+  {
+    "id": 7,
+    "img": "https://bizweb.dktcdn.net/thumb/large/100/155/073/products/900a95f21d04b2c4ef800af3491c61cb-jpeg.jpg?v:1595669100063",
+
+    "name": " Oppo A9",
+    "price": "23.000.000"
+  },
+
+  {
+    "id": 8,
+    "img": "https://cdn.mobilecity.vn/mobilecity-vn/images/2018/01/w300/oppo-f5-6gb-ram-cu.jpg.webp",
+
+    "name": "Oppo F5",
+    "price": "23.500.000"
+  },
+
+  {
+    "id": 9,
+    "img": "https://bizweb.dktcdn.net/thumb/large/100/155/073/products/35464-oppo-a5s-32gb-black-1-1.png?v:1595668356367",
+
+    "name": "Oppo A5s",
+    "price": "24.000.000"
+  },
+
+  {
+    "id": 10,
+    "img": "https://cdn1.viettelstore.vn/images/Product/ProductImage/medium/OPPO-A73-Oran-1.jpg",
+
+    "name": "Oppo A73",
+    "price": "24.500.000"
+  }
+]
