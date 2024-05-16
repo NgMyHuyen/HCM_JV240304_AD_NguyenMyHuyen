@@ -1,27 +1,3 @@
-// import React from "react";
-// import ItemPhone from "./Item.jsx";
-// import phoneList from "./Data.json";
-
-// export default function LisItems({ handleAddToCart }) {
-//   return (
-//     <>
-//       <div className="container">
-//         {phoneList.map((phone) => (
-//           <div key={phone.id} className="phone-line">
-//             <ItemPhone
-//               img={phone.img}
-//               name={phone.name}
-//               price={phone.price}
-//               handleAddToCart={handleAddToCart}
-//             />
-//           </div>
-//         ))}
-//       </div>
-//     </>
-//   );
-// }
-/* */
-
 import React from "react";
 import ProductItem from "./Item";
 import data from "./Data.json";

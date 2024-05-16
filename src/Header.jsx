@@ -12,26 +12,3 @@ export default function Header({ handleToggle, cartCount }) {
     </header>
   );
 }
-
-/* */
-/*SHOPPING APP */
-
-// import React from "react";
-// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-
-// export default function Header({ cartCount, toggleCart }) {
-//   return (
-//     <div id="header">
-//       <div className="header-text">
-//         <a>Trang Chủ</a>
-//         <a>Danh sách sản phẩm</a>
-//       </div>
-//       <div className="shopping-icon">
-//         <button onClick={toggleCart}>
-//           <ShoppingCartIcon />
-//         </button>
-//         <span id="cartCount">{cartCount}</span>
-//       </div>
-//     </div>
-//   );
-// }
