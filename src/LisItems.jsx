@@ -1,17 +1,29 @@
 import React from "react";
-import ProductItem from "./Item";
-import data from "./Data.json";
+import data from "./data.json";
+import Product from "./Item.jsx";
 
-export default function ListProducts({ handleAddToCart }) {
+export default function ListProducts({ cartItems, updateCart }) {
+  const addToCart = (product) => {
+    const itemIndex = cartItems.findIndex((item) => item.id === product.id);
+    if (itemIndex !== -1) {
+      const updatedCart = [...cartItems];
+      updatedCart[itemIndex].quantity += 1;
+      updateCart(updatedCart);
+    } else {
+      updateCart([...cartItems, { ...product, quantity: 1 }]);
+    }
+  };
+
   return (
     <div id="products">
       <h1>Danh sách sản phẩm</h1>
       <div className="products">
         {data.map((product) => (
-          <ProductItem
+          <Product
             key={product.id}
             product={product}
-            handleAddToCart={handleAddToCart}
+            // handleAddToCart={() => addToCart(product)}
+            handleAddToCart={() => addToCart(product)}
           />
         ))}
       </div>

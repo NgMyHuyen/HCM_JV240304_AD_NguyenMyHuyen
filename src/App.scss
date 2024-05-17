@@ -35,19 +35,26 @@
 
 /* scss of ShoppingCart*/
 
-#header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: orange;
 }
-.header-text {
+.header-content-text {
   color: white;
   display: flex;
   align-items: center;
   padding: 10px 20px;
   gap: 20px;
 }
+.header-icon {
+  background-color: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
 .nav a {
   text-decoration: none;
   color: white;
@@ -74,7 +81,9 @@
   padding: 0px 5px 0px 5px;
   border-radius: 50%;
 }
-
+#cart-name {
+  color: white;
+}
 #products {
   width: 1570px;
   margin: 0 auto;
@@ -112,9 +121,7 @@
 .product button:hover {
   background-color: rgb(113, 113, 246);
 }
-h1 {
-  color: white;
-}
+
 .cart-items-container {
   position: absolute;
   top: 46px;
@@ -221,4 +228,11 @@ h1 {
   width: 40px;
   height: 30px;
   margin-left: 50px;
+}
+.btn-count {
+  display: flex;
+  display: flex;
+  margin-right: 20px;
+  align-items: flex-start;
+  margin-right: 20px;
 }

@@ -28,16 +28,16 @@ export default function App() {
     setCartCount(updatedCartItemCount);
   };
 
-  const handleAddToCart = (product) => {
-    const itemIndex = cartItems.findIndex((item) => item.id === product.id);
-    if (itemIndex !== -1) {
-      const updatedCart = [...cartItems];
-      updatedCart[itemIndex].quantity += 1;
-      updateCart(updatedCart);
-    } else {
-      updateCart([...cartItems, { ...product, quantity: 1 }]);
-    }
-  };
+  // const handleAddToCart = (product) => {
+  //   const itemIndex = cartItems.findIndex((item) => item.id === product.id);
+  //   if (itemIndex !== -1) {
+  //     const updatedCart = [...cartItems];
+  //     updatedCart[itemIndex].quantity += 1;
+  //     updateCart(updatedCart);
+  //   } else {
+  //     updateCart([...cartItems, { ...product, quantity: 1 }]);
+  //   }
+  // };
 
   const handleRemoveFromCart = (product) => {
     const updatedCart = cartItems.filter((item) => item.id !== product.id);
@@ -81,7 +81,7 @@ export default function App() {
     /*Shopping App*/
     <div>
       <Header cartCount={storedCartCount} toggleCart={toggleCart} />
-      <ListProducts handleAddToCart={handleAddToCart} />
+      <ListProducts cartItems={cartItems} />
       {showCart && (
         <CartItems
           cartItems={cartItems}

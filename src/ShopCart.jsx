@@ -8,14 +8,14 @@ export default function CartItems({
 }) {
   return (
     <div className="cart-items-container">
-      <h1>Cart</h1> <hr />
+      <h1 id="cart-name">Cart</h1> <hr />
       {cartItems.length === 0 ? (
         <span>
           <h3>Chưa có sản phẩm trong giỏ hàng</h3>
         </span>
       ) : (
         <>
-          {cartItems.map((item) => (
+          {cartItems?.map((item) => (
             <div key={item.id} className="cart-item">
               <div className="item-info">
                 <div className="position-img-name-item">
